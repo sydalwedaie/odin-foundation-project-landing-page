@@ -15,4 +15,5 @@ export const data = {
       URL: "#",
     },
   ],
+  infoCards: [1, 2, 3, 4],
 };
