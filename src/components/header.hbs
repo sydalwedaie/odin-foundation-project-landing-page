@@ -1,23 +1,27 @@
-<header>
-  <nav class="nav">
-    <div class="logo">{{logo}}</div>
-    <ul class="site-links">
+<header
+  class="flex flex-col items-center gap-32 bg-gray-800 px-4 pb-32 pt-8 text-slate-100"
+>
+  <nav class="flex w-full max-w-[900px] items-center justify-between">
+    <div class="text-2xl font-black">{{logo}}</div>
+    <ul class="flex gap-8">
       {{#each siteLinks as |link|}}
         <li><a href="{{link.URL}}">{{link.text}}</a></li>
       {{/each}}
     </ul>
   </nav>
-  <div class="hero">
-    <div class="hero-text">
-      <h1>This website is awesome</h1>
-      <p>
+  <div class="flex w-full max-w-[900px] items-center gap-16">
+    <div class="flex flex-1 flex-col items-start gap-4">
+      <h1 class="text-5xl font-black">This website is awesome</h1>
+      <p class="text-lg font-light">
         This website has some subtext that goes here under the main title. It's
         a smaller font and the color is lower contrast
       </p>
-      <button>Sign up</button>
+      <button class="rounded-md bg-blue-500 px-9 py-2 font-bold text-white">
+        Sign up
+      </button>
     </div>
 
-    <div class="hero-img">
+    <div class="flex-1">
       <img src="https://placehold.co/600x400" alt="placeholder" />
     </div>
   </div>
