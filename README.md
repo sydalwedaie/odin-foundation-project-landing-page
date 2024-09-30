@@ -2,9 +2,7 @@
 
 ## What is This?
 
-This is the solution to the [Landing Page challenge](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project. I created this project using [Vite](https://vitejs.dev/guide/), [Tailwind CSS](https://tailwindcss.com/), and [Handlebars](https://handlebarsjs.com/).
-
-**Note:** I am also the author of the [Zenful Template](https://github.com/sydalwedaie/zenful-template). I created it to practice using TailwindCSS for begener projects like this one.
+This is the solution to the [Landing Page challenge](https://www.theodinproject.com/lessons/foundations-landing-page) from The Odin Project. I built this project using the [Zenful Template](https://github.com/sydalwedaie/zenful-template), which I created to speed up my practice projects like this one. It uses [Vite](https://vitejs.dev/guide/) for the build process, [Tailwind CSS](https://tailwindcss.com/) for styling, and [Handlebars](https://handlebarsjs.com/) as a minimal templating engine.
 
 ## What I Learned
 
